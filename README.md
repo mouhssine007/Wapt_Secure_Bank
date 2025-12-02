@@ -31,3 +31,8 @@ sudo apt update && sudo apt install -y docker.io
 sudo systemctl enable docker
 
 sudo systemctl start docker
+3. Run SecureBank
+
+Move into the project directory:
+
+cd secure-bank
