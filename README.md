@@ -36,3 +36,32 @@ sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-
 
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
+3️⃣ Run SecureBank
+cd secure-bank
+sudo docker-compose up -d
+Check containers:
+
+sudo docker container ps
+
+🌐 Accessing SecureBank
+
+Open:
+
+http://localhost:1337
+
+🔑 Default Credentials
+Username: admin@hexdump.sh
+Password: admin
+
+🎯 Purpose
+
+This project is intended only for learning, including:
+
+OWASP Top 10
+
+Web Application Penetration Testing
+
+Vulnerability identification training
+
+⚠️ Not for production
+⚠️ Do not expose publicly
