@@ -1,38 +1,32 @@
-# SecureBank (Modified Version)
+# SecureBank
 
-**Author of Original Project:** Leonardo Tamiano (ssrdio)  
-📌 Original Repository: https://github.com/ssrdio/SecureBank
-
----
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://www.docker.com/)
+[![.NET](https://img.shields.io/badge/.NET-6-blue?logo=dotnet)](https://dotnet.microsoft.com/)
+[![License](https://img.shields.io/badge/License-Original-green)](https://github.com/ssrdio/SecureBank)
 
 ## 📘 Overview
 
-**SecureBank** is a deliberately vulnerable .NET / C# web application created for educational purposes, targeting students, penetration testers, and web developers who want to learn about **Web Application Penetration Testing (WAPT)**.
+SecureBank is a vulnerable .NET/C# training application designed for students, penetration testers, and web developers who want to learn Web Application Penetration Testing (WAPT).
 
-This version of SecureBank is a **forked and modified release** that includes:
+This version of SecureBank is a forked and modified version of the original project created by **Leonardo Tamiano (ssrdio)**.  
+All credit for the original concept, source structure, and initial development goes to him.
 
-- Updated UI / style changes  
-- Additional vulnerabilities added for training  
-- Minor bug fixes  
-- Same structure and features as the original concept  
+📌 Original Repository:  
+https://github.com/ssrdio/SecureBank
 
-All credits for the original project structure, content, and concept go to **Leonardo Tamiano (ssrdio)**.
+### 🔧 This modified version includes:
+- UI and styling improvements  
+- Additional vulnerabilities added for learning  
+- Minor fixes and enhancements  
+- Dockerized for easy local deployment  
 
 ---
 
-## 🐳 Deployment (Docker)
+## 🐳 Deployment Using Docker
 
-This project runs entirely using **Docker** and **Docker Compose**.
-
-### **1. Install Docker**
+### 1️⃣ Install Docker
 
 ```bash
 sudo apt update && sudo apt install -y docker.io
 sudo systemctl enable docker
-
 sudo systemctl start docker
-3. Run SecureBank
-
-Move into the project directory:
-
-cd secure-bank
