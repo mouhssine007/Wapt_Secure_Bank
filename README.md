@@ -25,8 +25,14 @@ https://github.com/ssrdio/SecureBank
 ## 🐳 Deployment Using Docker
 
 ### 1️⃣ Install Docker
-
+ 
 ```bash
 sudo apt update && sudo apt install -y docker.io
 sudo systemctl enable docker
 sudo systemctl start docker
+### 2️⃣ Install Docker Compose
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" \
+  -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
